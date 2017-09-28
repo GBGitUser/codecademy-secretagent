@@ -1,13 +1,34 @@
+html {
+  font-size: 18px;
+  font-family: Helvetica;
+}
+
 body {
+  color: lightblue;
 }
 
 .container {
   display : flex;
   flex-flow: column nowrap;
+  width: 960px;
 }
 
 .logo {
+  background-color: black;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
 
+.logo img {
+  height: 1.5rem;
+  padding-left: 0.5rem;
+  padding-right: 1.0rem;
+
+}
+.logo p {
+  font-variant-caps: small-caps;
+  padding: 0.66rem 0;
 }
 
 .banner {
