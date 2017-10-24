@@ -113,6 +113,10 @@ nav ul {
   margin: 2rem 2rem;
 }
 
+.product:nth-child(3) img {
+  margin: auto 2rem;
+}
+
 .product .label {
   width: 100%;
   background-color: black;
